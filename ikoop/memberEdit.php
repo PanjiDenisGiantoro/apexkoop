@@ -9,7 +9,7 @@ include("header.php");
 include("koperasiQry.php");
 include("forms.php");
 
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 if (get_session("Cookie_groupID") <> 1 and get_session("Cookie_groupID") <> 2 and get_session("Cookie_groupID") <> 3 and get_session("Cookie_groupID") <> 4 and get_session("Cookie_groupID") <> 5 or get_session("Cookie_koperasiID") <> 0) {
 	print '<script>alert("' . $errPage . '");window.location="index.php";</script>';
 }

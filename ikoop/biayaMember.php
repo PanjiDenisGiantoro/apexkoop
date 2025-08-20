@@ -10,7 +10,7 @@ if (!isset($q))			$q="";
 if (!isset($by))		$by="0";
 if (!isset($filter))	$filter="0";
 if (!isset($dept))		$dept="";
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 
 
 include("header.php");	

@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 if (!isset($q))            $q = "";
 if (!isset($dept))        $dept = "";
 if (!isset($by))        $by = "1";

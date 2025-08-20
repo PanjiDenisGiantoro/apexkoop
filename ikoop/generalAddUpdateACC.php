@@ -11,7 +11,7 @@ if (!isset($cat))	$cat = "";
 
 include("common.php");
 include("koperasiQry.php");
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 include("forms.php");
 
 if (get_session("Cookie_groupID") <> 2 and get_session("Cookie_groupID") <> 4 or get_session("Cookie_koperasiID") <> 0) {
@@ -829,7 +829,7 @@ if ($SubmitForm <> "") {
 	if (count($strErrMsg) == "0") {
 		//if ($d_Address <> "") $d_Address = '<pre>'.$d_Address.'</pre>';
 		if ($parentID == "") $parentID = "0";
-		date_default_timezone_set('Asia/Kuala_Lumpur');
+		date_default_timezone_set('Asia/Jakarta');
 		$createdBy 	= get_session("Cookie_userName");
 		$createdDate = date("Y-m-d H:i:s");
 		$updatedBy 	= get_session("Cookie_userName");

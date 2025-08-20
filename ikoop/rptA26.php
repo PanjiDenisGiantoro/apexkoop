@@ -10,7 +10,7 @@ if (!isset($fasa))		$fasa="ALL";
 if (!isset($dept))		$dept="";
 
 include("common.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 $today = date("F j, Y, g:i a");     
 
 if (get_session("Cookie_koperasiID") <> 0) {

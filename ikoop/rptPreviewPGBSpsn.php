@@ -16,7 +16,7 @@ if (!isset($yr)) $yr	= date("Y");
 
 include("common.php");	
 include("koperasiQry.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 $yrmthNow = sprintf("%04d%02d", $yr, $mth);
 
 if (get_session("Cookie_groupID") <> 1 

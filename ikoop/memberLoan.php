@@ -12,7 +12,7 @@ include("common.php");
 include("koperasiinfo.php");	
 include("koperasiQry.php");	
 include("koperasiList.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 if (get_session('Cookie_userID') == "" OR get_session("Cookie_koperasiID") <> 0) {
 	print '<script>alert("'.$errPage.'");window.close();</script>';
 }

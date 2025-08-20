@@ -76,7 +76,7 @@ if (!isset($by))		$by="1";
 if (!isset($filter))	$filter="ALL";
 if (!isset($dept))		$dept="";
 if (!isset($fasa))		$fasa="";
-date_default_timezone_set("Asia/Kuala_Lumpur");	
+date_default_timezone_set("Asia/Jakarta");	
 
 include("header.php");	
 include("koperasiQry.php"); 

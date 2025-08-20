@@ -10,7 +10,7 @@ if (!isset($q))			$q="";
 
 include("header.php");	
 include("koperasiQry.php"); 
-date_default_timezone_set("Asia/Kuala_Lumpur");	
+date_default_timezone_set("Asia/Jakarta");	
 	
 if (get_session('Cookie_userID') == "" OR get_session("Cookie_koperasiID") <> 0) {
 	print '<script>alert("'.$errPage.'");parent.location.href = "index.php";</script>';

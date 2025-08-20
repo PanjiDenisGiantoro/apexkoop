@@ -14,7 +14,7 @@ if (!isset($dept))			$dept = '';
 
 include("header.php");	
 include("koperasiQry.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 if (get_session("Cookie_groupID") <> 1 AND get_session("Cookie_groupID") <> 2 OR get_session("Cookie_koperasiID") <> 0) {
 	print '<script>alert("'.$errPage.'");top.location="index.php";</script>';
 }

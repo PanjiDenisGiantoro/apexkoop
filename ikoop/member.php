@@ -14,7 +14,7 @@ if (!isset($fasa))		$fasa="";
 if (!isset($jenisCode))		$jenisCode="";
 if(!isset($picsst)) $picsst = dlookup("userdetails", "borangSST", "userID=" . tosql($pk, "Text"));
 $borangSST= "upload_sst/".$borangSST;
-date_default_timezone_set("Asia/Kuala_Lumpur");	
+date_default_timezone_set("Asia/Jakarta");	
 
 include("header.php");	
 include("koperasiQry.php"); 

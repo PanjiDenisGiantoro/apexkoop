@@ -19,7 +19,7 @@ if (!isset($filter))	$filter="(1,4)";
 
 include("header.php");	
 include("koperasiQry.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 $yrmthNow = sprintf("%04d%02d", $yr, $mth);
 
 if (get_session("Cookie_groupID") <> 1 

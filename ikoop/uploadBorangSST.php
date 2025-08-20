@@ -6,7 +6,7 @@
 *********************************************************************************/
 //include("common.php");	
 include("koperasiQry.php");
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 
 //if(!isset($pk)) $pk = 0;
 //$pk = get_session('Cookie_userID');

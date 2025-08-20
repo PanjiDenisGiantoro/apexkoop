@@ -8,7 +8,7 @@
 session_start();
 include("common.php");	
 include("koperasiQry.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 $today = date("F j, Y");    
 $yr = (int)substr($yrmth,0,4);
 $mth = (int)substr($yrmth,4,2);

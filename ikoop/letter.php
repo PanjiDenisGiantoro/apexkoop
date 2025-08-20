@@ -8,7 +8,7 @@
 include("common.php");
 
 include("koperasiQry.php");
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 include("letter.inc.php");
 //ini_set("SMTP","helpdesk@ikoop.com.my");
 //ini_set("smtp_port","587");

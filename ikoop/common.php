@@ -740,7 +740,7 @@ $dividenList	=	array('Yuran','Syer');
 $dividenVal		=	array('0','1');
 
 // Storing Status Information
-$biayaList	=	array('Dalam Proses','Disediakan','Disemak','Diluluskan','Ditolak','Dibatalkan');
+$biayaList	=	array('Dalam Proses','Disediakan','Diperiksa','Disetujui','Ditolak','Dibatalkan');
 $biayaVal	=	array('0','1','2','3','4','5');
 
 // Member status

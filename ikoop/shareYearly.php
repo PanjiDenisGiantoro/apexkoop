@@ -7,7 +7,7 @@
 session_start();
 if(@$_REQUEST['xt']==9){ include("common.php"); }
 //include("common.php");	
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 $today = date("F j, Y");                 
 
 if (get_session("Cookie_groupID") == "" OR get_session("Cookie_koperasiID") <> 0) {

@@ -6,7 +6,7 @@
 *********************************************************************************/
 include("header.php");
 include("koperasiQry.php"); 
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Asia/Jakarta");
 ?>
 <head>
 <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />        	
