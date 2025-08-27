@@ -14,3 +14,7 @@ CREATE TABLE depositoracc (
 
 ALTER TABLE depositoracc
 MODIFY COLUMN UserID VARCHAR(50) NOT NULL
+
+
+
+-

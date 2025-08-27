@@ -125,7 +125,7 @@ if (!defined('_ADODB_LAYER')) {
 	var $host = ''; 			// The hostname of the database server	
 	var $user = ''; 			// The username which is used to connect to the database server. 
 	var $password = ''; 		// Password for the username
-	var $debug = false; 		// if set to true will output sql statements
+	var $debug = true; 		// if set to true will output sql statements
 	var $maxblobsize = 64000; 	// maximum size of blobs or large text fields -- some databases die otherwise like foxpro
 	var $concat_operator = '+'; // default concat operator -- change to || for Oracle/Interbase	
 	var $fmtDate = "'Y-m-d'";	// used by DBDate() as the default date format used by the database
@@ -2615,7 +2615,7 @@ if (!defined('_ADODB_LAYER')) {
 	/**
 	* Save a file $filename and its $contents (normally for caching) with file locking
 	*/
-	function adodb_write_file($filename, $contents,$debug=false)
+	function adodb_write_file($filename, $contents,$debug=true)
 	{ 
 	# http://www.php.net/bugs.php?id=9203 Bug that flock fails on Windows
 	# So to simulate locking, we assume that rename is an atomic operation.
